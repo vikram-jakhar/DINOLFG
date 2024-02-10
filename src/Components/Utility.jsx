@@ -1,18 +1,16 @@
 import React from 'react'
 import TopLayer from '../assets/img/AboutLayer.webp'
-import Cap_Cartun from '../assets/img/Cap_Cartun.png'
-import Sayikal from '../assets/img/Sayikal_Cartun.png'
-import RoadMAPtopL from '../assets/img/RoadMAPtopL.png';
-import Tree from '../assets/img/utilityElipse.png'
+import Cap_Cartun from '../assets/img/Cap_Cartun.webp'
+import Sayikal from '../assets/img/Sayikal_Cartun.webp'
+import RoadMAPtopL from '../assets/img/RoadMAPtopL.webp';
+import Tree from '../assets/img/utilityElipse.webp'
 
 
 const Utility = () => {
     return (
-        <div>
+        <>
             <div className='bg-[#0A4740] relative z-[1] overflow-hidden'>
-                <div>
-                    <img src={TopLayer} alt="TopLayer" className='w-full max-xl:mt-[-1px]' />
-                </div>
+                <img src={TopLayer} alt="TopLayer" className='w-full max-xl:mt-[-1px]' />
                 <div className=' max-w-[1014px] mx-auto px-3'>
                     <h2 className='text-[64px] text-white font-chewy mb-[23px] sm:mb-[158px] font-normal  text-center leading-[83.63px]'>Utility and Usecase</h2>
                     <div data-aos="zoom-in" data-aos-duration='400' data-aos-once='true' className=' max-w-[1014px] mb-6 relative bg-[#09655A] border border-solid border-white pt-[23px] lg:py-[62px] pl-[12px] md:pl-[35px] pr-[12px] lg:pr-[24px] rounded-[20px]'>
@@ -52,7 +50,7 @@ const Utility = () => {
             </div>
 
 
-        </div>
+        </>
     )
 }
 

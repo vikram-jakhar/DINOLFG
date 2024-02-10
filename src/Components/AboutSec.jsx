@@ -1,7 +1,7 @@
 import React from 'react'
-import AboutLeft from '../assets/img/AboutElipseLeft.png'
-import treeRight from '../assets/img/AboutElipseight.png'
-import Gudaa from '../assets/img/CartunRight.png'
+import AboutLeft from '../assets/img/AboutElipseLeft.webp'
+import treeRight from '../assets/img/AboutElipseight.webp'
+import Gudaa from '../assets/img/CartunRight.webp'
 const AboutSec = () => {
     return (
         <>

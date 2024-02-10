@@ -12,7 +12,7 @@ const Lodre = () => {
         }
     }
     return (
-        <div>
+        <>
             {loder ? (
                 <div className="flex-col bg-[#103536] z-50 fixed gap-4 w-full flex items-center justify-center min-h-full top-[-1px]">
 
@@ -34,7 +34,7 @@ const Lodre = () => {
             ) : (
                 ""
             )}
-        </div>
+        </>
     )
 }
 

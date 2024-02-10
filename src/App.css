@@ -30,6 +30,7 @@ body {
 .Sayikal {
   animation: Sayikal1 28s infinite;
   animation-timing-function: linear;
+  animation-direction: alternate-reverse;
 }
 
 .Cap_Cartun {
@@ -64,8 +65,9 @@ body {
 
 @keyframes Sayikal1 {
   0% {
-    right: 40% !important;
+    right: 0px !important;
     transform: translateX(-12px);
+    top: 0;
   }
 
   4% {
@@ -80,8 +82,9 @@ body {
   }
 
   15% {
-    right: 46% !important;
+    right: 222px !important;
     transform: translateX(150px);
+    top: 0px;
   }
 
   30% {
