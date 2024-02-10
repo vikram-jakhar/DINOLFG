@@ -7,7 +7,7 @@ const AboutSec = () => {
         <>
             <div id='about' className='bg-[#09655A] relative z-[2]  '>
                 <div data-aos="zoom-in" data-aos-once='true' className=' relative' >
-                    <div className='!z-[20] !relative'>
+                    <div className='!z-[20] !relative px-3'>
                         <h2 className='text-center pt-[76px]  mb-[42px]'>
                             <span className='text-[64px] font-chewy font-normal leading-[83.63px] text-white'>About </span>
                             <span className='text-[69.67px] font-dino font-normal leading-[66.19px]'>
