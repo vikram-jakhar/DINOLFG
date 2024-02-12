@@ -45,12 +45,12 @@ const HeroSec = () => {
                                 </h3>
                             </div>
                             <ul className={`${nav ? "left-0" : "left-[-100%]"} items-center  mobileView duration-300 flex gap-[28px]`}>
-                                <li onClick={show} className='text-[18px] font-chewy font-normal leading--[23.52px] text-[black] '><a href="#about" >About</a></li>
-                                <li onClick={show} className='text-[18px] font-chewy font-normal leading--[23.52px] text-[black] '><a href="#tokenomic" >Tokenomic</a></li>
-                                <li onClick={show} className='text-[18px] font-chewy font-normal leading--[23.52px] text-[black] '><a href="#roadmap" >Roadmap</a></li>
-                                <li onClick={show} className='text-[18px] font-chewy font-normal leading--[23.52px] text-[black] '><a href="#faq" >FAQ</a></li>
+                                <li onClick={show} className='text-[18px] font-chewy font-normal sm:leading-[23.52px] text-[black] after:absolute after:w-0 after:bg-black after:h-[2px] after:left-[0] after:bottom-[-2px] hover:after:w-full after:duration-300 after:rounded-[80px]   relative '><a href="#about" >About</a></li>
+                                <li onClick={show} className='text-[18px] font-chewy font-normal sm:leading-[23.52px] text-[black] after:absolute after:w-0 after:bg-black after:h-[2px] after:left-[0] after:bottom-[-2px] hover:after:w-full after:duration-300 after:rounded-[80px]   relative '><a href="#tokenomic" >Tokenomic</a></li>
+                                <li onClick={show} className='text-[18px] font-chewy font-normal sm:leading-[23.52px] text-[black] after:absolute after:w-0 after:bg-black after:h-[2px] after:left-[0] after:bottom-[-2px] hover:after:w-full after:duration-300 after:rounded-[80px]   relative '><a href="#roadmap" >Roadmap</a></li>
+                                <li onClick={show} className='text-[18px] font-chewy font-normal sm:leading-[23.52px] text-[black] after:absolute after:w-0 after:bg-black after:h-[2px] after:left-[0] after:bottom-[-2px] hover:after:w-full after:duration-300 after:rounded-[80px]   relative '><a href="#faq" >FAQ</a></li>
                                 <li className='max-[600px]:!flex !hidden   gap-2'>
-                                    <span onClick={show} className='w-[37px] h-[37px] bg-[white] border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
+                                    <span onClick={show} className='hover:bg-black  w-[37px] h-[37px] bg-[white] hover:shadow-[0px_0px_20px_4px_rgba(0,0,0,0)] transition duration-300 border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
                                         <a href="https://www.Twitter.com/" target='_blank'><Twiter /></a>
                                     </span>
                                     <span onClick={show} className='w-[37px] h-[37px] bg-[white] border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
@@ -67,13 +67,13 @@ const HeroSec = () => {
                             </ul>
                             <div className='flex items-center gap-[8px]'>
                                 <div className='max-[600px]:hidden flex gap-2'>
-                                    <span className='  w-[37px] h-[37px] bg-[white] border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
+                                    <span className=' hover:bg-black duration-300 transition group w-[37px] h-[37px] bg-[white] border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
                                         <a href="https://www.Twitter.com/" target='_blank'><Twiter /></a>
                                     </span>
-                                    <span className=' cursor-pointer w-[37px] h-[37px] bg-[white] border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
+                                    <span className='hover:bg-black duration-300 transition group cursor-pointer w-[37px] h-[37px] bg-[white] border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
                                         <a href="https://www.Discord.com/" target='_blank'>  <Discord /></a>
                                     </span>
-                                    <span className=' cursor-pointer w-[37px] h-[37px] bg-[white] border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
+                                    <span className='hover:bg-black duration-300 transition group cursor-pointer w-[37px] h-[37px] bg-[white] border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
                                         <a href="https://www.Instagram.com/" target='_blank'> <Insta /></a>
                                     </span>
                                 </div>
