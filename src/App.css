@@ -30,7 +30,6 @@ body {
 .Sayikal {
   animation: Sayikal1 28s infinite;
   animation-timing-function: linear;
-  animation-direction: alternate-reverse;
 }
 
 .Cap_Cartun {
