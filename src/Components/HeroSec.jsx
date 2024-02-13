@@ -50,7 +50,7 @@ const HeroSec = () => {
                                 <li onClick={show} className='text-[18px] font-chewy font-normal sm:leading-[23.52px] text-[black] after:absolute after:w-0 after:bg-black after:h-[2px] after:left-[0] after:bottom-[-2px] hover:after:w-full after:duration-300 after:rounded-[80px]   relative '><a href="#roadmap" >Roadmap</a></li>
                                 <li onClick={show} className='text-[18px] font-chewy font-normal sm:leading-[23.52px] text-[black] after:absolute after:w-0 after:bg-black after:h-[2px] after:left-[0] after:bottom-[-2px] hover:after:w-full after:duration-300 after:rounded-[80px]   relative '><a href="#faq" >FAQ</a></li>
                                 <li className='max-[600px]:!flex !hidden   gap-2'>
-                                    <span onClick={show} className='hover:bg-black  w-[37px] h-[37px] bg-[white] hover:shadow-[0px_0px_20px_4px_rgba(0,0,0,0)] transition duration-300 border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
+                                    <span onClick={show} className='hover:bg-black  w-[37px] h-[37px] bg-[white] hover:shadow-[0px_0px_20px_4px_rgba(60,60,60,260)] transition duration-300 border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
                                         <a href="https://www.Twitter.com/" target='_blank'><Twiter /></a>
                                     </span>
                                     <span onClick={show} className='w-[37px] h-[37px] bg-[white] border border-solid border-[black] rounded-[50px] flex justify-center items-center'>
